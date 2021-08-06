@@ -5,4 +5,10 @@ The purpose of this analysis was to create a logistic regression model for baseb
 Data and inspiration comes from https://www.kaggle.com/jcraggy/baseball.
 
 ## Analysis Results
-From training the model, we find that the best predictors for whether a hit is a home run or not is launch angle, launch speed, launch_angle, and the type of hit (specifically if it is a ground ball or fly ball).
+From training the model, we find that the best predictors for whether a hit is a home run or not is launch angle, launch speed, and the type of hit (specifically if it is a ground ball or fly ball).
+
+![Coefficient Plot](images/coeffs.png)
+
+## Tools
+
+Python and Jupyter notebook were used for main analysis, along with several packages such as Pandas, Numpy, scikit-learn, and Matplotlib.
